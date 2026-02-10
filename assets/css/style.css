@@ -1,25 +1,25 @@
 html {
-    background-color: #e8f5e9;
+    background-color: #f1f8e9;
     font-size: 14px;
     width: 100%;
 }
 
 h1 {
     font-size: 2.5rem;
-    color: #2e7d32;
+    color: #558b2f;
 }
 
 h2 {
     font-size: 1.8rem;
-    color: #455a64;
+    color: #4e342e;
 }
 
 #page {
     width: 80%;
     margin: 20px auto;
     background-color: #ffffff;
-    border: 2px solid #2e7d32;
-    padding: 20px;
+    border: 3px solid #a5d6a7;
+    padding: 25px;
 }
 
 .entete, footer {
@@ -28,18 +28,25 @@ h2 {
 
 #aboutme {
     margin-top: 30px;
-    border-top: 1px solid #eeeeee;
-}
-
-img {
-    max-width: 200px;
-    height: auto;
-    margin: 10px;
-    border-radius: 8px;
+    padding: 15px;
 }
 
 footer {
-    margin-top: 20px;
-    padding: 10px;
+    margin-top: 30px;
+    padding: 15px;
     background-color: #fce4ec;
+    border-radius: 5px;
+}
+
+footer a {
+    color: #d81b60;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+img {
+    max-width: 180px;
+    height: auto;
+    margin: 15px;
+    border: 2px solid #fce4ec;
 }
