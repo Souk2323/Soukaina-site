@@ -3,14 +3,17 @@ html {
     font-size: 14px;
     width: 100%;
 }
+
 h1 {
     font-size: 2.5rem;
     color: #2d4f2d;
 }
+
 h2 {
-    font-size: 1.8rem;
-    color: #4a4a4a;
+    font-size: 1.5rem;
+    color: #2d4f2d;
 }
+
 #page {
     width: 80%;
     margin: 20px auto;
@@ -18,24 +21,45 @@ h2 {
     border: 2px solid #2d4f2d;
     padding: 20px;
 }
+
 .entete, footer {
     text-align: center;
 }
+
+img {
+    max-width: 250px;
+    height: auto;
+    float: right;
+    margin-left: 15px;
+}
+
+table {
+    border: 1px solid #c2185b;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #c2185b;
+    padding: 5px;
+}
+
+ul {
+    list-style-type: square;
+}
+
 #aboutme {
-    margin-top: 25px;
+    margin-top: 20px;
+    clear: both;
 }
+
 footer {
-    margin-top: 25px;
-    padding: 15px;
+    margin-top: 20px;
     background-color: #fce4ec;
+    padding: 10px;
 }
+
 footer a {
     color: #c2185b;
     text-decoration: none;
     font-weight: bold;
-}
-img {
-    max-width: 200px;
-    height: auto;
-    margin: 10px;
 }
