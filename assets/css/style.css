@@ -1,0 +1,42 @@
+/* Style général */
+html {
+    background-color: #f9f9f9; /* couleur foncé de fond */
+    font-size: 14px;
+    width: 100%;
+}
+
+/* Titres */
+h1 {
+    font-size: 2em; /* plus grand que le texte normal */
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+/* Division principale */
+#page {
+    width: 80%;               /* moins que 100% */
+    margin: 0 auto;           /* centrer horizontalement */
+    background-color: #ffffff; /* fond gris */
+    border: 2px solid #000000; /* bordure noire */
+    padding: 20px;
+}
+
+/* En-tête */
+.entete {
+    text-align: center;
+}
+
+/* À propos de moi */
+#aboutme {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #eeeeee;
+}
+
+/* Pied de page */
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
