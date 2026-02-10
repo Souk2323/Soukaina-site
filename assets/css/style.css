@@ -1,2 +1,43 @@
-<link rel="stylesheet" href="assets/css/style.css">
+/* 1. L'arrière-plan de toute la page */
+html {
+    background-color: #f0f2f5; /* Une couleur douce pour le fond */
+    font-size: 14px;           /* La taille demandée par le prof */
+    width: 100%;
+}
+
+/* 2. Les titres en taille relative */
+h1 {
+    font-size: 2.5rem; 
+}
+h2 {
+    font-size: 1.8rem;
+}
+
+/* 3. La bande centrale blanche */
+#page {
+    width: 80%;               /* Moins de 100% pour voir le fond sur les côtés */
+    margin: 20px auto;        /* 'auto' permet de centrer la bande horizontalement */
+    background-color: white;  /* Fond blanc pour le contenu */
+    border: 2px solid #333;   /* Bordure pleine demandée */
+    padding: 20px;            /* Pour que le texte ne colle pas aux bords */
+}
+
+/* 4. Centrer le nom, les photos et le bas de page */
+.entete, footer {
+    text-align: center;
+}
+
+/* 5. Espacement pour la partie personnelle */
+#aboutme {
+    margin-top: 30px;
+}
+
+/* Petit bonus : limiter la taille de tes photos pour qu'elles ne dépassent pas */
+img {
+    max-width: 200px;
+    height: auto;
+    margin: 10px;
+}
+
+
 
