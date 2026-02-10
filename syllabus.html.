@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Syllabus - Programmation Web</title>
+    <link rel="stylesheet" href="assets/css/syllabus.css">
+</head>
+<body>
+    <div id="page">
+        <h1>Syllabus : Programmation Web</h1>
+        <p><a href="index.html"> Retour à mon CV</a></p>
+        
+        <h2>Description du cours</h2>
+        <p>Introduction à la création de documents pour le Web (HTML5 et CSS3).</p>
+
+        <h2>Objectifs d'apprentissage</h2>
+        <ul>
+            <li>Structurer un document HTML.</li>
+            <li>Mettre en forme avec CSS.</li>
+            <li>Utiliser GitHub pour la publication.</li>
+        </ul>
+    </div>
+</body>
+</html>
