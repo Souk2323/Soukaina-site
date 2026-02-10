@@ -1,52 +1,41 @@
 html {
-    background-color: #f1f8e9;
+    background-color: #dce7dc;
     font-size: 14px;
     width: 100%;
 }
-
 h1 {
     font-size: 2.5rem;
-    color: #558b2f;
+    color: #2d4f2d;
 }
-
 h2 {
     font-size: 1.8rem;
-    color: #4e342e;
+    color: #4a4a4a;
 }
-
 #page {
     width: 80%;
     margin: 20px auto;
     background-color: #ffffff;
-    border: 3px solid #a5d6a7;
-    padding: 25px;
+    border: 2px solid #2d4f2d;
+    padding: 20px;
 }
-
 .entete, footer {
     text-align: center;
 }
-
 #aboutme {
-    margin-top: 30px;
-    padding: 15px;
+    margin-top: 25px;
 }
-
 footer {
-    margin-top: 30px;
+    margin-top: 25px;
     padding: 15px;
     background-color: #fce4ec;
-    border-radius: 5px;
 }
-
 footer a {
-    color: #d81b60;
-    font-weight: bold;
+    color: #c2185b;
     text-decoration: none;
+    font-weight: bold;
 }
-
 img {
-    max-width: 180px;
+    max-width: 200px;
     height: auto;
-    margin: 15px;
-    border: 2px solid #fce4ec;
+    margin: 10px;
 }
