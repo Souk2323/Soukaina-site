@@ -6,7 +6,6 @@ body {
     font-family: sans-serif;
 }
 
-/* Centre le Prénom Nom et le titre comme sur l'image */
 h1, h2, .entete {
     text-align: center;
     color: black;
@@ -20,26 +19,23 @@ h1, h2, .entete {
     border: 1px solid black;
 }
 
-/* La photo à droite comme dans l'exemple */
 img {
     float: right;
     max-width: 200px;
 }
 
-/* Le tableau simple sans couleur, juste des bordures noires */
 table, th, td {
     border: 1px solid black;
     border-collapse: collapse;
     padding: 5px;
+    color: black;
 }
 
-/* Le lien en bas centré */
 footer {
     text-align: center;
     margin-top: 20px;
 }
 
 footer a {
-    color: blue;
-    text-decoration: underline;
+    color: black;
 }
