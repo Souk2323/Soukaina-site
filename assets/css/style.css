@@ -2,37 +2,44 @@ html {
     background-color: #dce7dc;
 }
 
+body {
+    font-family: sans-serif;
+}
+
+/* Centre le Prénom Nom et le titre comme sur l'image */
 h1, h2, .entete {
-    color: black;
     text-align: center;
+    color: black;
 }
 
 #page {
-    width: 80%;
-    margin: 20px auto;
+    width: 90%;
+    margin: auto;
     background-color: white;
-    border: 2px solid #2d4f2d;
     padding: 20px;
+    border: 1px solid black;
 }
 
+/* La photo à droite comme dans l'exemple */
 img {
-    max-width: 250px;
     float: right;
-    margin-left: 15px;
+    max-width: 200px;
 }
 
+/* Le tableau simple sans couleur, juste des bordures noires */
 table, th, td {
     border: 1px solid black;
     border-collapse: collapse;
     padding: 5px;
-    color: black;
 }
 
+/* Le lien en bas centré */
 footer {
     text-align: center;
     margin-top: 20px;
 }
 
 footer a {
-    color: black;
+    color: blue;
+    text-decoration: underline;
 }
