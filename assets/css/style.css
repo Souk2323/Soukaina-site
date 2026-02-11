@@ -1,10 +1,19 @@
 html {
     background-color: #dce7dc;
     font-size: 14px;
+    width: 100%;
 }
 
 body {
     font-family: sans-serif;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 1.5rem;
 }
 
 h1, h2, .entete {
@@ -13,11 +22,15 @@ h1, h2, .entete {
 }
 
 #page {
-    width: 90%;
+    width: 80%;
     margin: auto;
     background-color: white;
+    border: 2px solid black;
     padding: 20px;
-    border: 1px solid black;
+}
+
+#aboutme {
+    margin-top: 20px;
 }
 
 img {
