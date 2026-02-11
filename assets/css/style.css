@@ -1,16 +1,9 @@
 html {
     background-color: #dce7dc;
     font-size: 14px;
-    width: 100%;
 }
 
-h1 {
-    font-size: 2.5rem;
-    color: #2d4f2d;
-}
-
-h2 {
-    font-size: 1.5rem;
+h1, h2 {
     color: #2d4f2d;
 }
 
@@ -22,10 +15,6 @@ h2 {
     padding: 20px;
 }
 
-.entete, footer {
-    text-align: center;
-}
-
 img {
     max-width: 250px;
     height: auto;
@@ -34,32 +23,23 @@ img {
 }
 
 table {
-    border: 1px solid #c2185b;
+    border: 1px solid black;
     border-collapse: collapse;
 }
 
 th, td {
-    border: 1px solid #c2185b;
+    border: 1px solid black;
     padding: 5px;
-}
-
-ul {
-    list-style-type: square;
-}
-
-#aboutme {
-    margin-top: 20px;
-    clear: both;
+    color: black;
 }
 
 footer {
+    text-align: center;
     margin-top: 20px;
-    background-color: #fce4ec;
-    padding: 10px;
 }
 
 footer a {
-    color: #c2185b;
-    text-decoration: none;
+    color: #2d4f2d;
     font-weight: bold;
+    text-decoration: none;
 }
