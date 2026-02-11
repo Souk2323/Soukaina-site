@@ -3,8 +3,10 @@ html {
     font-size: 14px;
 }
 
-h1, h2 {
-    color: #2d4f2d;
+/* Ton nom, ton prénom et les titres sont maintenant en noir et centrés */
+h1, h2, .entete {
+    color: black;
+    text-align: center;
 }
 
 #page {
@@ -39,7 +41,7 @@ footer {
 }
 
 footer a {
-    color: #2d4f2d;
+    color: black;
     font-weight: bold;
     text-decoration: none;
 }
