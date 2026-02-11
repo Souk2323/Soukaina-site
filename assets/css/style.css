@@ -1,9 +1,7 @@
 html {
     background-color: #dce7dc;
-    font-size: 14px;
 }
 
-/* Ton nom, ton prénom et les titres sont maintenant en noir et centrés */
 h1, h2, .entete {
     color: black;
     text-align: center;
@@ -12,25 +10,20 @@ h1, h2, .entete {
 #page {
     width: 80%;
     margin: 20px auto;
-    background-color: #ffffff;
+    background-color: white;
     border: 2px solid #2d4f2d;
     padding: 20px;
 }
 
 img {
     max-width: 250px;
-    height: auto;
     float: right;
     margin-left: 15px;
 }
 
-table {
+table, th, td {
     border: 1px solid black;
     border-collapse: collapse;
-}
-
-th, td {
-    border: 1px solid black;
     padding: 5px;
     color: black;
 }
@@ -42,6 +35,4 @@ footer {
 
 footer a {
     color: black;
-    font-weight: bold;
-    text-decoration: none;
 }
